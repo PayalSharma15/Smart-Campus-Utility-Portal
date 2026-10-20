@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+}
+
+/* Navbar */
+.navbar {
+    background: #2e7d32;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* ✅ FIX */
+}
+
+/* Right links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+/* Table */
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header */
+.attendance-table th {
+    background: #2e7d32;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Rows */
+.attendance-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover */
+.attendance-table tr:hover {
+    background: #f1f1f1;
+}
+
+/* Status styles */
+.present {
+    color: green;
+    font-weight: bold;
+}
+
+.absent {
+    color: red;
+    font-weight: bold;
+}

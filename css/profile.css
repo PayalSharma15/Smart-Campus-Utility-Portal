@@ -1,0 +1,225 @@
+/* ==========================
+   GENERAL
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.navbar{
+   background: #2e7d32;
+    color: white;
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar h2{
+    font-size:26px;
+    font-weight:600;
+}
+
+/* ==========================
+   BACK BUTTON
+========================== */
+
+.back-btn {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background: #e8f5e9;
+    padding: 8px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background: #c8e6c9;
+}
+    
+  /* CONTAINER
+========================== */
+
+.container{
+
+    width:100%;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* ==========================
+   PAGE TITLE
+========================== */
+.title{
+    font-size:28px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+/* ==========================
+   SUCCESS MESSAGE
+========================== */
+
+.success{
+
+    color:#2e7d32;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+}
+
+/* ==========================
+   PROFILE BOX
+========================== */
+
+.profile-box{
+
+    width:470px;
+
+    background:white;
+
+    padding:30px;
+
+    margin-bottom:25px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.3s;
+}
+
+.profile-box:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+}
+
+/* ==========================
+   LABELS
+========================== */
+
+.profile-box label{
+
+    display:block;
+
+    font-size:20px;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+    color:#333;
+}
+
+/* ==========================
+   INPUTS
+========================== */
+
+.profile-box input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-bottom:2px solid #ccc;
+
+    outline:none;
+
+    font-size:17px;
+
+    background:#fafafa;
+
+    transition:.3s;
+}
+
+.profile-box input:focus{
+
+    border-color:#2e7d32;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.profile-box button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2e7d32;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.profile-box button:hover{
+
+    background:#1b5e20;
+
+    transform:scale(1.02);
+
+    box-shadow:0 8px 20px rgba(46,125,50,.30);
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:600px){
+
+    .profile-box{
+
+        width:92%;
+    }
+
+    .title{
+
+        font-size:34px;
+    }
+
+    .navbar h2{
+
+        font-size:30px;
+    }
+
+    .back-btn{
+
+        margin:20px;
+    }
+}

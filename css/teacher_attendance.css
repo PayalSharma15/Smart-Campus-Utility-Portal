@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #2e7d32;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Card */
+.card {
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+/* Top bar (date) */
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.top-bar input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background: #2e7d32;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:hover {
+    background: #f9f9f9;
+}
+
+/* Radio buttons spacing */
+td label {
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+/* Button */
+.save-btn {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.save-btn:hover {
+    background: #1b5e20;
+}

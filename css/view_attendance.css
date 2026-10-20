@@ -1,0 +1,166 @@
+css
+/* General Page */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+
+
+/* Navbar */
+.navbar {
+    background: #2e7d32;
+    color: white;
+    padding: 35px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Navbar Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.nav-links a:hover {
+    color: #c8e6c9;
+    text-decoration: underline;
+}
+
+/* Page Title */
+.title {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 35px 15px 25px;
+}
+
+/* Table Card */
+.card {
+    width: 90%;
+    margin: 0 auto 40px;
+    background: white;
+    padding: 0;
+    border-radius: 12px;
+    overflow-x: auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Attendance Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+/* Table Header */
+th {
+    background: #2e7d32;
+    color: white;
+    padding: 16px 14px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Table Data */
+td {
+    padding: 15px 14px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 15px;
+}
+
+/* Alternate Rows */
+tbody tr:nth-child(even) {
+    background: #f9fbf9;
+}
+
+/* Hover Effect */
+table tr:hover td {
+    background: #edf7ee;
+}
+
+/* Present Status */
+.present {
+    display: inline-block;
+    color: #2e7d32;
+    background: #e8f5e9;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Absent Status */
+.absent {
+    display: inline-block;
+    color: #c62828;
+    background: #ffebee;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 15px 18px;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .navbar h2 {
+        font-size: 21px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 23px;
+        margin: 28px 10px 20px;
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    th,
+    td {
+        padding: 12px 10px;
+        font-size: 13px;
+    }
+}

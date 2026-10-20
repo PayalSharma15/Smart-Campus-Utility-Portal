@@ -1,0 +1,204 @@
+css
+/* General Page */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+/* Green Navbar */
+.navbar {
+    background: #2e7d32;
+    color: white;
+    padding: 15px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar h2 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Navbar Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    background: #1b5e20;
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+
+    margin: 20px 0 0 30px;
+    padding: 8px 16px;
+
+    background: #e8f5e9;
+    color: #2e7d32;
+
+    border: 1px solid #c8e6c9;
+    border-radius: 25px;
+
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    transition: background 0.2s ease;
+}
+
+.back-btn:hover {
+    background: #c8e6c9;
+    color: #1b5e20;
+}
+
+/* Page Title */
+.title {
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+/* Attendance Card */
+.card {
+    margin: 20px auto 40px;
+    width: 90%;
+    padding: 25px;
+    box-sizing: border-box;
+
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+
+/* Attendance Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+/* Table Header */
+th {
+    background: #2e7d32;
+    color: white;
+    padding: 14px 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Table Cells */
+td {
+    padding: 14px 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+/* Table Row Hover */
+tbody tr:hover,
+table tr:hover td {
+    background: #f1f8f2;
+}
+
+/* Present Badge */
+.present {
+    display: inline-block;
+    background: #4caf50;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Absent Badge */
+.absent {
+    display: inline-block;
+    background: #f44336;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 14px 18px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .navbar h2 {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        gap: 8px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .back-btn {
+        margin: 18px 0 0 15px;
+        padding: 7px 13px;
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin: 25px 12px;
+    }
+
+    .card {
+        width: 95%;
+        padding: 12px;
+    }
+
+    th,
+    td {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+}

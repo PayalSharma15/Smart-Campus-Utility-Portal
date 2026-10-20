@@ -1,0 +1,95 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #2e7d32;
+    color: white;
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 40px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Title */
+.card h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.card input,
+.card textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+.card input:focus,
+.card textarea:focus {
+    border-bottom: 2px solid #2e7d32;
+}
+
+/* Button */
+.card button {
+    width: 100%;
+    padding: 12px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.card button:hover {
+    background: #1b5e20;
+}
+
+/* Message */
+.msg {
+    margin-top: 15px;
+    color: green;
+}
+
+/* Back button */
+.back-btn {
+    display: inline-block;
+    margin: 20px 30px;
+    background: #e8f5e9;
+    padding: 8px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background: #c8e6c9;
+}

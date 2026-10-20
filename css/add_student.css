@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+}
+
+/* Center container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+/* Success */
+.success {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+.back-btn {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}

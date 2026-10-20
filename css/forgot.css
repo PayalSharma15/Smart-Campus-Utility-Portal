@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+}
+
+/* Navbar */
+.navbar {
+    background: #2e7d32;
+    color: white;
+    padding: 1px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Center */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Card */
+.card {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.title {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+/* Input */
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 15px;
+}
+
+.input-group label {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    font-size: 13px;
+    color: #666;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1b5e20;
+}
+
+/* Message */
+.msg {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}

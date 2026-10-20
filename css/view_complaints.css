@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background:#f4f6f9;
+}
+
+/* Navbar */
+.navbar{
+    background:#2e7d32;
+    color:white;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    text-decoration:underline;
+}
+
+/* Container */
+.container{
+    padding:30px;
+}
+
+/* Title */
+.title{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+th{
+    background:#2e7d32;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f1f1f1;
+}
+
+/* Status Colors */
+.pending{
+    color:orange;
+    font-weight:bold;
+}
+
+.resolved{
+    color:green;
+    font-weight:bold;
+}
+
+.rejected{
+    color:red;
+    font-weight:bold;
+}

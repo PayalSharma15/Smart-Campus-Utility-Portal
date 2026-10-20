@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+/* Center container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Heading */
+.card h2 {
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+/* Inputs */
+.card input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.card input:focus {
+    border-bottom: 2px solid #2e7d32;
+}
+
+/* Button */
+.card button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #1b5e20;
+}
+
+/* Message */
+.msg {
+    margin-top: 10px;
+    font-weight: 500;
+}
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #2e7d32;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #1b5e20;
+}

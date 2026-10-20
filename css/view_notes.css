@@ -1,0 +1,119 @@
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #2e7d32;
+    color: white;
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.card h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th {
+    background: #2e7d32;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Column alignment */
+td:nth-child(1) {
+    width: 30%;
+    text-align: left;
+}
+
+td:nth-child(2) {
+    width: 40%;
+    text-align: left;
+}
+
+td:nth-child(3) {
+    width: 30%;
+    text-align: center;
+}
+
+/* Hover */
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Buttons */
+.view-btn {
+    background: #2e7d32;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.view-btn:hover {
+    background: #1b5e20;
+}
+
+.download-btn {
+    background: rgb(61, 146, 180);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background: #0d47a1;
+}
+
+/* Back button */
+.back-btn {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background: #e8f5e9;
+    padding: 8px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background: #c8e6c9;
+}
